@@ -1,0 +1,6 @@
+framework module EatDrink {
+  umbrella header "EatDrink.h"
+
+  export *
+  module * { export * }
+}
