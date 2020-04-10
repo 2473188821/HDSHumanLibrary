@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDSHumanLibrary'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'HDSHumanLibrary show human methods.'
 
 # This description is used to generate tags and improve search results.
