@@ -1,0 +1,6 @@
+framework module HDSHumanLibrary {
+  umbrella header "HDSHumanLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}

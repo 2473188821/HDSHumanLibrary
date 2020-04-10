@@ -1,0 +1,16 @@
+PODS:
+  - HDSHumanLibrary (0.1.0)
+
+DEPENDENCIES:
+  - HDSHumanLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  HDSHumanLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HDSHumanLibrary: 6d82bfd4bc65617efb20060861b5c52c3781dfa5
+
+PODFILE CHECKSUM: 54579302dea707f61b8b9f27580868f6d82dfb96
+
+COCOAPODS: 1.9.1
