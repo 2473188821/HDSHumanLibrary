@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HDSHumanLibrary'
-  s.version          = '1.0.8'
+  s.version          = '1.0.9'
   s.summary          = 'HDSHumanLibrary show human methods.'
 
 # This description is used to generate tags and improve search results.
@@ -30,10 +30,13 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HDSHumanLibrary/Classes/**/*'
+  # s.source_files = 'HDSHumanLibrary/Classes/**/*.{h,m}'
+  s.source_files = 'HDSHumanLibrary/Classes/*.{h,m}'
 
-  s.vendored_frameworks = "HDSHumanLibrary/Classes/*.framework"
+
   
+  # s.vendored_frameworks = 'HDSHumanLibrary/Classes/*.{framework}'
+
   # s.resource_bundles = {
   #   'HDSHumanLibrary' => ['HDSHumanLibrary/Assets/*.png']
   # }
