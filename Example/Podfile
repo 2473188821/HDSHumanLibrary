@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HDSHumanLibrary_Tests' do
+  pod 'HDSHumanLibrary', :path => '../'
+  
+  
+end
